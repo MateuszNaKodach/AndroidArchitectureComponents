@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                         })
 
         viewModel.userDao.findByLocalId(1L)
-                .observe(this, Observer { user ->
+                .observe(this, Observer<User> { user ->
                     print(Thread.currentThread().name + " pojedyczny: " + user)
                     if (user != null) {
                         this.currentUser = user

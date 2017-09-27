@@ -2,7 +2,6 @@ package io.github.nowakprojects.androidarchitecturecomponents.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import io.github.nowakprojects.androidarchitecturecomponents.R
 import io.github.nowakprojects.androidarchitecturecomponents.domain.model.entity.User
